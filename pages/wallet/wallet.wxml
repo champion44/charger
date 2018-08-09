@@ -10,7 +10,7 @@
 <p class='text'>余额</p>
 <p class='secondText'>¥100</p>
 </view>
-<button class='btn'>充值余额</button>
+<button class='btn' bindtap='goToCharge'>充值余额</button>
 </view>
 <view class='padding'>
 <image mode='widthFix'  class='walletImg' src='../../image/wallet/wallet2.png'></image>

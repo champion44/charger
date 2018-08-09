@@ -19,6 +19,8 @@
 
 </view>
 <view class='btn'>
+<navigator url='../charge/charge'>
 <button>充 值</button>
+</navigator>
 </view>
 </view>

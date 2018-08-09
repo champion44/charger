@@ -25,7 +25,7 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   onLoad: function () {
-    
+  
   },
   getUserInfo: function(e) {
     console.log(e)
