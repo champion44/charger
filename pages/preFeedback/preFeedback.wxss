@@ -1,0 +1,18 @@
+/* pages/preFeedback/preFeedback.wxss */
+page{
+  background-color: white;
+}
+image{
+  width: 100%;
+  margin-top: 20%;
+}
+button{
+  position:fixed; 
+bottom:0; 
+width: 100%;
+height: 150rpx;
+line-height: 150rpx;
+color: white;
+background-color:  #fd9526;
+font-size: 45rpx;
+}

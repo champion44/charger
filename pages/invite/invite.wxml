@@ -1,0 +1,15 @@
+<!--pages/invite/invite.wxml邀请好友页面-->
+<view class='box'>
+  <image src='../../image/invite/邀请好友.png' mode='aspectFit'></image>
+  <button class='invite '>邀请好友</button>
+
+  <view class='bottom margin'>
+    <view class='padding'>
+      <p>— ——— <p class='color'>我的邀请记录</p>  ——— —</p>
+    </view>
+    <view class='padding row'>
+      <image class='discount' src='../../image/invite/优惠券.png'></image>
+      <text class='rowText'>已成功邀请0人</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<!--pages/wallet/wallet.wxml我的钱包-->
+<view class='box'>
+<view class='margin'>
+<text class='title'>我的钱包</text>
+<text class='detail'>交易明细</text>
+</view>
+<view >
+<image mode='widthFix'  class='walletImg' src='../../image/wallet/wallet1.png'></image>
+<view class='texts'>
+<p class='text'>余额</p>
+<p class='secondText'>¥100</p>
+</view>
+<button class='btn'>充值余额</button>
+</view>
+<view class='padding'>
+<image mode='widthFix'  class='walletImg' src='../../image/wallet/wallet2.png'></image>
+<view class='texts'>
+<p class='text'>押金</p>
+<p class='secondText' style='color:#fd9526;'>未缴纳</p>
+</view>
+<button class='btn'>缴纳押金</button>
+</view>
+<button class='claim'>提现</button>
+</view>

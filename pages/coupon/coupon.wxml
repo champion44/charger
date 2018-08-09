@@ -1,0 +1,13 @@
+<!--pages/coupon/coupon.wxml-->
+<view class='box'>
+<view class='btns'>
+<text>未使用</text>
+<text>使用记录</text>
+<text>已过期</text>
+</view>
+<image class='mainPic' src='../../image/coupon/coupon.png' mode='aspectFit'></image>
+<view class='bottomBtn'>
+<button>兑换优惠券</button>
+<button>使用说明</button>
+</view>
+</view>

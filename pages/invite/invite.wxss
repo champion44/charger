@@ -1,0 +1,71 @@
+/* pages/invite/invite.wxss */
+
+page {
+  background-color: white;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: middle;
+}
+
+image {
+  width: 100%;
+}
+
+.invite {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 70rpx;
+  background: linear-gradient(to right, #ffd700, #fd9526);
+  color: white;
+  border-radius: 75rpx;
+}
+
+.margin {
+  margin: 70rpx 0;
+}
+
+.bottom {
+  width: 80%;
+  margin-left: 10%;
+  height: 320rpx;
+  box-shadow: #ededed 0px 0px 10px;
+  border-radius: 35rpx;
+}
+
+p {
+  color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 37rpx;
+}
+
+.color {
+  color: gray;
+}
+
+.discount {
+  width: 220rpx;
+  height: 120rpx;
+}
+
+.padding {
+  padding-top: 40rpx;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10rpx;
+  padding-left: 30rpx;
+}
+
+.rowText {
+  padding-left: 20rpx;
+  font-size: 35rpx;
+  color: gray;
+}

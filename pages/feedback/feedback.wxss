@@ -1,0 +1,64 @@
+/* pages/feedback/feedback.wxss */
+
+.background {
+  background-color: white;
+}
+
+.title {
+  font-size: 40rpx;
+  color: gray;
+}
+
+.hisFeedback {
+  font-size: 35rpx;
+  color: gray;
+  position: fixed;
+  right: 5%;
+}
+
+.margin {
+  margin-left: 5%;
+}
+
+.size {
+  width: 100%;
+  height: 200rpx;
+}
+
+.contentSize {
+  width: 100%;
+  height: 400rpx;
+}
+
+.contactSize {
+  width: 100%;
+  height: 100rpx;
+}
+
+.selectBtn {
+  border: 1rpx solid rgb(77, 135, 220);
+  width: 25%;
+  height: 90rpx;
+  font-size: 30rpx;
+  line-height: 90rpx;
+  color: rgb(77, 135, 220);
+  top: 55rpx;
+  left: -150rpx;
+}
+
+.submit {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  background-color: #fd9526;
+  height: 120rpx;
+  line-height: 120rpx;
+  width: 100%;
+}
+.placeholder{
+  font-size: 38rpx;
+  line-height: 100rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+}

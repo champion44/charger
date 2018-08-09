@@ -1,0 +1,43 @@
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+  
+}
+
+.page-body {
+  padding: 20rpx 0;
+}
+
+.btn-area{
+  margin-top: 60rpx;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30rpx;
+}
+button::after{
+border: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 773759 */
+  src: url('//at.alicdn.com/t/font_773759_355g1vn4y0b.eot');
+  src: url('//at.alicdn.com/t/font_773759_355g1vn4y0b.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_773759_355g1vn4y0b.woff') format('woff'),
+  url('//at.alicdn.com/t/font_773759_355g1vn4y0b.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_773759_355g1vn4y0b.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-scan:before {
+   content: "\e699"; 
+  font-size: 80rpx;
+  display: block;
+}
+

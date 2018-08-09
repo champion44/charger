@@ -1,0 +1,24 @@
+<!--pages/change/change.wxml余额-->
+<view class='box'>
+<view class='ps'>
+<p class='money'>{{change}}</p>
+<p style='color:rgb(130,59,13);'>总 余 额 (元)</p>
+</view>
+
+<image src='../../image/change/change.png' mode='aspectFill'></image>
+<view class='inputs'>
+<view class='left column'>
+<p>{{charged}}</p>
+<text>充值余额(元)</text>
+</view>
+<image class='middle' src='../../image/change/middle.png'></image>
+<view class='right column'>
+<p>{{gifted}}</p>
+<text>赠送余额(元)</text>
+</view>
+
+</view>
+<view class='btn'>
+<button>充 值</button>
+</view>
+</view>

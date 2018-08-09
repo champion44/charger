@@ -1,0 +1,8 @@
+<!--pages/message/message.wxml-->
+<view class='box'>
+<block wx:if='{{hasMessage}}'>
+<image mode='widthFix' class='noMessageImg' src='../../image/hasNoMessage.png'></image>
+</block>
+<block wx:else>
+</block>
+</view>

@@ -1,0 +1,36 @@
+<!--pages/charge/charge.wxml充值页面-->
+<view class='box'>
+<image class='topImg'  mode='widthFix' src='../../image/charge/charge.png'></image>
+<text class='margin text'>充值金额</text>
+
+<view class='areas'>
+<view class='{{marker[0]}}' bindtap='select' id='1'>
+<text>充50元</text>
+<p>赠送6元</p>
+</view>
+
+<view class='{{marker[1]}}'  bindtap='select' id='2'>
+<text>充20元</text>
+<p>赠送3元</p>
+</view>
+</view>
+
+<view class='areas' style='  margin-bottom: 30rpx;'>
+<view class='{{marker[2]}}'  bindtap='select' id='3'>
+<text>充10元</text>
+<p>赠送1元</p>
+</view>
+
+<view class='{{marker[3]}}'  bindtap='select' id='4'>
+<input class='inputHeight' type='number' placeholder='输入金额' bindblur='confirm'></input>
+</view>
+</view>
+
+<text class='margin text'>选择支付方式</text>
+<image class='bottomImg' src='../../image/charge/wechatPay.png'></image>
+<view class='bottomView'>
+<text >共计  ¥{{money}}</text>
+<button class='bottomBtn'>立即充值</button>
+</view>
+<text class='bottomText'>点击立即充值,即表示您已经同意<text style='color:rgb(253,184,44);'>《充值活动协议》</text></text>
+</view>

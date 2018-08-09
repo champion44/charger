@@ -1,0 +1,35 @@
+<!--pages/my/my.wxml-->
+<view class='box'>
+  <image class='top' src='../../image/my.png'></image>
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+
+  <view class='blank'>
+    <navigator url='../wallet/wallet'>
+      <text class='font'>我的钱包</text>
+      <image src='../../image/箭头.png' class='arrow'></image>
+    </navigator>
+  </view>
+
+  <!--3个图标  -->
+  <view class='icons'>
+    <view class='icon' wx:for="{{icons}}" wx:key="this" bindtap='iconDetail' id='{{item.iconTitle}}'>
+      <image class='iconImg' src='{{item.iconPath}}'></image>
+      <p>{{item.iconTitle}}</p>
+    </view>
+  </view>
+  <!--icons-->
+
+  <view class='blank'>
+    <button open-type="contact" class='hiddenBtn'></button>
+    <text class='font'>我的客服</text>
+    <image src='../../image/箭头.png' class='arrow'></image>
+  </view>
+
+  <view class='blank'>
+    <navigator url='../invite/invite'>
+      <text class='font'>邀请好友</text>
+      <image src='../../image/箭头.png' class='arrow'></image>
+    </navigator>
+  </view>
+
+</view>

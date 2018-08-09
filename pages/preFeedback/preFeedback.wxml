@@ -1,0 +1,5 @@
+<!--pages/preFeedback/preFeedback.wxml历史反馈引导界面-->
+<view>
+<image src='../../image/feedback/反馈.png' mode='aspectFit'></image>
+<button>马 上 去 反 馈</button>
+</view>

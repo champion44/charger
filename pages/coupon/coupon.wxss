@@ -1,0 +1,46 @@
+/* pages/coupon/coupon.wxss */
+
+.btns {
+  background-color: white;
+  height: 80rpx;
+  margin-top: 5rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+text {
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+text:hover {
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #fd9526;
+  border-bottom: 5rpx solid #fd9526;
+}
+
+.mainPic {
+  width: 100%;
+  margin-top: 30%;
+}
+.bottomBtn{
+  position: fixed;
+  bottom: 0;
+  height: 120rpx;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.bottomBtn button{
+  width: 50%;
+  color: gray;
+  background-color: white;
+  font-size: 38rpx;
+  line-height: 120rpx;
+}
+button:active{
+  background-color: #fd9526;
+  color: white;
+}

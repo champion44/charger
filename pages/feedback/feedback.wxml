@@ -1,0 +1,35 @@
+<!--pages/feedback/feedback.wxml-->
+<view>
+<view class='box'>
+
+<view style='padding:10rpx 0;'>
+<text class='title margin'>问题类型</text>
+<text class='hisFeedback'>历史反馈</text>
+</view>
+
+<view class='background size'>
+<button class='selectBtn'>功能建议</button>
+</view>
+
+<view style='padding:10rpx 0;'>
+<text class='title margin'>反馈内容</text>
+</view>
+
+<view class='background contentSize'>
+<input class='placeholder margin' placeholder='请填写您的意见和建议' placeholder-style='color:#E3E3E3;'></input>
+
+</view>
+
+
+<view style='padding:10rpx 0;'>
+<text class='title margin'>联系方式</text>
+</view>
+
+<view class='background contactSize'>
+<input class='placeholder margin' placeholder='手机号码或者邮箱' placeholder-style='color:#E3E3E3;'></input>
+</view>
+
+</view>
+
+<button class='submit' bindtap='submit'>提交反馈</button>
+</view>

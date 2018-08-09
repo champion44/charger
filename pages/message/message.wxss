@@ -1,0 +1,6 @@
+/* pages/message/message.wxss */
+.noMessageImg{
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 40%;
+}
