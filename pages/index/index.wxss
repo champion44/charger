@@ -9,23 +9,33 @@
 .page-section-gap {
   padding: 0 0rpx;
 }
-.btnsRight{
+
+.btnsRight {
   position: fixed;
   top: 40%;
   left: 80%;
 }
-.background{
+
+.hiddenBtn {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: red;
+}
+
+.background {
   margin-top: 20rpx;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   width: 100rpx;
   height: 100rpx;
   border-radius: 50rpx;
 }
-.rightImg{
+
+.rightImg {
   width: 80rpx;
   height: 80rpx;
   padding: 10rpx 0 0 10rpx;
 }
+
 .scanBtn {
   position: fixed;
   top: 70%;
@@ -35,16 +45,19 @@
   border-radius: 130rpx;
   left: 32%;
 }
-.center{
+
+.center {
   position: absolute;
   top: 50rpx;
   left: 25%;
 }
-.scanImg{
+
+.scanImg {
   width: 110rpx;
   height: 110rpx;
   margin-left: 10rpx;
 }
+
 .scanText {
   font-size: 35rpx;
 }

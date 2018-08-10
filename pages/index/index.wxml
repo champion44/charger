@@ -7,8 +7,9 @@
     <map id="myMap" style="width: 100%;height:1180rpx" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" covers="{{covers}}" show-location>
       <!-- 右边的按钮组 -->
       <cover-view class='btnsRight'>
-        <cover-view class='background' bindtap='contact'>
-          <cover-image src='../../image/indexImg/客服.png' class='rightImg'></cover-image>
+        <cover-view class='background'>
+          <cover-image src='../../image/indexImg/客服.png' class='rightImg'>
+          </cover-image>
         </cover-view>
         <cover-view class='background' bindtap='moveToLocation'>
           <cover-image src='../../image/indexImg/刷新.png' class='rightImg'></cover-image>

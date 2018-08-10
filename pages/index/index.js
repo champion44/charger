@@ -36,7 +36,12 @@ Page({
     })
   },
   onReady: function (e) {
-    this.mapCtx = wx.createMapContext('myMap')
+    var that = this
+    that.mapCtx = wx.createMapContext('myMap')
+  setTimeout(function(){
+    that.mapCtx.moveToLocation()
+  },1000)
+    
   },
   getCenterLocation: function () {
     this.mapCtx.getCenterLocation({
@@ -45,6 +50,9 @@ Page({
         console.log(res.latitude)
       }
     })
+  },
+  btn:function(){
+    console.log("s")
   },
   moveToLocation: function () {
     this.mapCtx.moveToLocation()
