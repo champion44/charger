@@ -51,7 +51,9 @@
   top: 50rpx;
   left: 25%;
 }
-
+.scanBtnHide{
+  display: none;
+}
 .scanImg {
   width: 110rpx;
   height: 110rpx;

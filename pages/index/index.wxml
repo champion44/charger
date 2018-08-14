@@ -16,7 +16,7 @@
         </cover-view>
       </cover-view>
       <!-- 底部按钮集合 -->
-      <cover-view class='scanBtn' bindtap='scan'>
+      <cover-view class='scanBtn {{hideScanBtn}}' bindtap='scan'>
         <cover-view class='center'>
           <cover-image src='../../image/indexImg/scan.png' class='scanImg'></cover-image>
           <cover-view class='scanText' bindtap='scan'>扫码用电</cover-view>
