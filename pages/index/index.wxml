@@ -4,7 +4,7 @@
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
   </view> -->
   <view class="page-section page-section-gap">
-    <map bindmarkertap='showMarkerAdd' id="myMap" style="width: 100%;height:1100rpx" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" covers="{{covers}}" show-location>
+    <map bindtap='hideDetail' bindmarkertap='showMarkerAdd' id="myMap" style="width: 100%;height:1100rpx" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" covers="{{covers}}" show-location>
       <!-- 右边的按钮组 -->
       <cover-view class='btnsRight'>
         <cover-view class='background'>
@@ -27,20 +27,32 @@
       <cover-view class='{{hideDetailBtn}} bottomView'>
         <cover-view class='row'>
           <cover-image class='coverImage' src='../../image/banner.jpg'></cover-image>
-
           <cover-view class='column'>
             <cover-view class='title'>wowo银泰城二店</cover-view>
             <cover-view class='time'>8:00-22:00</cover-view>
             <cover-view class='add'>银泰城17栋1层3号</cover-view>
           </cover-view>
-
         </cover-view>
         <cover-view class='border'></cover-view>
         <cover-view class='bottomIcons'>
-          <cover-view class='bottomIcon marginR iconfont icon-apple'> 有</cover-view>
-          <cover-view class='bottomIcon marginR iconfont icon-android1'> 有</cover-view>
-          <cover-view class='bottomIcon marginR iconfont icon-msnui-usb-inverse'> 有</cover-view>
-          <cover-view class='bottomIcon iconfont'>可归还</cover-view>
+          <cover-view class='bottomIcon '>
+            <cover-image class='Icon' src='../../image/iconfontNotDisplay/apple.png'></cover-image>
+            <cover-view class='lineheight'>有</cover-view>
+            <cover-view class='borderR'></cover-view>
+          </cover-view>
+          <cover-view class='bottomIcon'>
+            <cover-image class='Icon' src='../../image/iconfontNotDisplay/android.png'></cover-image>
+            <cover-view class='lineheight'>有</cover-view>
+            <cover-view class='borderR'></cover-view>
+          </cover-view>
+          <cover-view class='bottomIcon '>
+            <cover-image class='Icon' src='../../image/iconfontNotDisplay/usb.png'></cover-image>
+            <cover-view class='lineheight'>有</cover-view>
+            <cover-view class='borderR'></cover-view>
+          </cover-view>
+          <cover-view class='bottomIcon '>
+            <cover-view class='lineheight'>可归还</cover-view>
+          </cover-view>
         </cover-view>
       </cover-view>
     </map>

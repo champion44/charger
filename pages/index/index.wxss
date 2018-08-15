@@ -52,7 +52,7 @@
   left: 25%;
 }
 
-.scanBtnHide {
+.hide {
   display: none;
 }
 
@@ -133,5 +133,18 @@
 
 .marginR {
   border-right: 1rpx solid lightgrey;
-align-content: center;
+}
+.Icon{
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+}
+.lineheight{
+  line-height: 50rpx;
+}
+.borderR{
+  width: 2%;
+  height: 50rpx;
+  background-color: gainsboro;
+  margin-left: 40rpx;
 }
