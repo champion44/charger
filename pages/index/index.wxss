@@ -51,9 +51,11 @@
   top: 50rpx;
   left: 25%;
 }
-.scanBtnHide{
+
+.scanBtnHide {
   display: none;
 }
+
 .scanImg {
   width: 110rpx;
   height: 110rpx;
@@ -62,4 +64,74 @@
 
 .scanText {
   font-size: 35rpx;
+}
+
+.bottomView {
+  background-color: rgba(252, 252, 252, 0.932);
+  width: 96%;
+  left: 2%;
+  height: 260rpx;
+  bottom: 30rpx;
+  position: fixed;
+  border-radius: 30rpx;
+}
+
+.coverImage {
+  width: 140rpx;
+  height: 140rpx;
+  position: relative;
+  border-radius: 25rpx;
+  margin: 3%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 35rpx;
+  margin: 6% 0;
+}
+
+.time {
+  color: grey;
+  margin: 3% 0;
+}
+
+.add {
+  color: grey;
+}
+
+.border{
+  width:90%;
+  height: 1rpx;
+  background-color: gainsboro;
+  margin-left: 5%;
+}
+.bottomIcons {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bottomIcon {
+  margin-top: 10rpx;
+  display: inline-flex;
+  color: gray;
+  flex-direction: row;
+  width: 20%;
+}
+
+.marginR {
+  border-right: 1rpx solid lightgrey;
+align-content: center;
 }
